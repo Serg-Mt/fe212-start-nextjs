@@ -7,12 +7,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix": "pnpm eslint --fix \"./**/*.{js,jsx,ts,tsx}\""
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-next": "^13.4.19",
+    "lint": "^0.8.19",
     "next": "^13.4.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
