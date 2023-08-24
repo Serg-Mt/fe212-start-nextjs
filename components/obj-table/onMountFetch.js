@@ -6,7 +6,7 @@ export default function OnMountFetch({ fetcher, DataComponent }) {
     [error, setError] = useState(null);
 
   useEffect(() => {
-    async function fetchUser() {
+    async function fetchAndSet() {
       try {
         setData(await fetcher());
         setError(null);
@@ -14,7 +14,7 @@ export default function OnMountFetch({ fetcher, DataComponent }) {
         setError(err);
       }
     }
-    fetchUser();
+    fetchAndSet();
   }, [fetcher]);
 
   

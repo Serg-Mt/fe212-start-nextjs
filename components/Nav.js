@@ -6,7 +6,9 @@ const pages = [
   { href: '/about', name: 'About' },
   { href: '/users', name: 'Users' },
   { href: '/info', name: 'test FetchUser' },
-  { href: '/table', name: 'users table' },
+  { href: '/table', name: 'on mount tables' },
+  { href: '/table2', name: 'on click table' },
+  { href: '/static', name: 'static data' }
 ];
 
 export default function Nav() {
