@@ -6,6 +6,7 @@ const pages = [
   { href: '/about', name: 'About' },
   { href: '/users', name: 'Users' },
   { href: '/info', name: 'test FetchUser' },
+  { href: '/table', name: 'users table' },
 ];
 
 export default function Nav() {
