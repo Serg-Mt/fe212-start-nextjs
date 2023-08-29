@@ -3,6 +3,7 @@ import css from './Nav.module.css';
 
 const pages = [
   { href: '/', name: 'Home' },
+  { href: '/todo', name: 'To Do List' },
   { href: '/about', name: 'About' },
   { href: '/users', name: 'Users' },
   { href: '/info', name: 'test FetchUser' },
