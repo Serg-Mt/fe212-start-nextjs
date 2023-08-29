@@ -5,7 +5,7 @@ import { newItem } from './item-type';
 
 export default function TodoList({ startList = [] }) {
   const
-    [list, setList] = useState(startList.map(str => newItem(str))),
+    [list, setList] = useState(startList),
     addClick = useCallback(newItemText => setList(old => old.concat(newItem(newItemText))), []),
     changeCheckedItem = useCallback(id => setList(old => {
       const
